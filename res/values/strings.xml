@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CampusApp</string>
+    <string name="hauptgerichte">Hauptgerichte</string>
+    <string name="suppen">Suppe</string>
+    <string name="nachspeisen">Nachspeisen</string>
+    <string name="beilagen">Beilagen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="updating_title">Download</string>
+    <string name="updating_text">Wochenkarte wird aktualisiert...</string>
+    <string name="error_title">Network Error</string>
+    <string name="error_text">Keine Internetverbindung! Bitte versuche es nochmal.</string>
+    <string name="ok_button">Ok</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="campusplan">Campusplan</string>
+    <string name="about">Über diese App</string>
+    <string name="help">Hilfe</string>
+    <string name="logout">Ausloggen</string>
+    <string name="recieve_button_text">Emails abrufen</string>
+    <string name="recieve_button_text_2">Emails senden</string>
+    <string name="send_button_text">Antworten</string>
+    <string name="placeholder_email">Emailplatzhalter</string>
+    <string name="placeholder_email_2">Emailplatzhalter</string>
+    <string name="anwserButtonText">Antworten</string>
+    <string name="send">Antworten</string>
+    <string name="mailPlaceholder">Mailtext hier eingeben...</string>
+    <string name="refresh">Refreshbutton</string>
+    <string name="legende">/?</string>
+    <string name="download_dialog_title">Download</string>
+    <string name="thread_dialog_message">Foreneintrag wird geladen</string>
+    <string name="login_titel">Login</string>
+    <string name="login_true">Login erfolgreich!</string>
+    <string name="login_false">Login fehlgeschlagen...</string>
+    <string name="login_message">Überprüfe Logindaten. Dies kann einige Sekunden dauern...</string>
+    <string name="course_bewertung">Bewertungen werden geladen...</string>
+    <string name="course_forum">Forum wird geladen...</string>
+    <string name="course_titel">Download</string>
+    <string name="feedback_titel">Feedback</string>
+    <string name="grips_download_text">Kurse werden geladen. Dies kann abhängig von Internetverbindung und Kursanzahl einige Minuten dauern...</string>
+    <string name="grips_download_text_progress">Kurs wird heruntergeladen...</string>
+    <string name="mail_gesendet">Email wurde verschickt!</string>
+    <string name="from">Von:</string>
+    <string name="subject">Betreff:</string>
+    <string name="to">An:</string>
+    <string name="answer">RE:</string>
+    <string name="am">Am</string>
+    <string name="um">um</string>
+    <string name="uhr">Uhr</string>
+    <string name="mail_download_text">Ungelesene Emails werden heruntergeladen...</string>
+    <string name="mensatitle">Das gibts diese Woche...</string>
+    <string name="mensaschluss">An Guadn!</string>
+    <string name="mon">Montag</string>
+    <string name="tue">Dienstag</string>
+    <string name="wed">Mittwoch</string>
+    <string name="thu">Donnerstag</string>
+    <string name="fri">Freitag</string>
+    <string name="internetCheck_toast">Keine Internetverbindung!</string>
+    <string name="emptyData">Keine Foreneinträge gefunden.</string>
+    <string name="passwort_dialog_ok">Übernehmen</string>
+    <string name="passwort_dialog_cancel">Abbrechen</string>
+    <string name="passwort_dialog_message_onCancel">Keine Änderungen wurden vorgenommen</string>
+    <string name="passwort_dialog_message_onSuccess">Passwort aktualisiert</string>
+    <string name="password_dialog_mes">Du hast dein RZ-Passwort extern geändert. Bitte gib dein neues Passwort hier ein...</string>
+    <string name="password_dialog_title">Passwort veraltet</string>
+    
+
+
+</resources>

@@ -1,0 +1,34 @@
+﻿Quellenangabe UR CampusApp
+
+1. Datenbank, Verschlüsselung
+
+	http://www.vogella.com/tutorials/AndroidSQLite/article.html 
+	http://stackoverflow.com/questions/12015731/android-sqlite-example 
+	http://stackoverflow.com/questions/4721732/sqlite-example-program-in-android 
+	http://www.tutorialspoint.com/android/android_sqlite_database.htm
+	http://www.androidsnippets.com/encrypt-decrypt-between-android-and-php
+
+2. Java Mail
+
+	http://stackoverflow.com/questions/10005837/javamail-sender-address-rejected-access-denied
+	http://stackoverflow.com/questions/3607965/how-to-convert-html-text-to-plain-text
+	https://community.oracle.com/thread/3513698
+	http://www.oracle.com/technetwork/java/javamail/faq/index.html#mainbody
+	https://www.java.net/node/697528
+	http://stackoverflow.com/questions/4542449/how-do-i-add-a-footer-view-to-a-child-list-in-a-expandablelistactivity
+
+3. Grips
+
+	http://jsoup.org/cookbook/extracting-data/selector-syntax
+	https://hc.apache.org/httpcomponents-client-4.3.x/quickstart.html
+	http://jsoup.org/cookbook/
+
+4. Mensa
+	
+	Der Mensapart der App weisst Ähnlichkeiten mit der zweiten Studienleistung auf, weswegen keine weiteren Quellen verwendet wurden
+
+5. Hilfe, Campusplan
+
+	http://stackoverflow.com/questions/12001793/android-imageview-setimagebitmap-vs-setimagedrawable
+
+

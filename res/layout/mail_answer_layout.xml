@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" 
+    android:id="@+id/rel_lay_mail_ans">
+
+  
+    <TextView
+        android:id="@+id/an"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/sendSubject"
+        android:layout_below="@id/an"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/heidenelke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/answerEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="300dp"
+        android:background="@drawable/answer_edit_text"
+        android:layout_below="@id/sendSubject"
+        android:hint="@string/mailPlaceholder" />
+    
+    <Button
+        android:id="@+id/answerButton"
+        android:background="@drawable/login_edit_text"
+        android:layout_below="@+id/answerEdit"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/heidenelke"
+        android:layout_width="100dp"
+        android:layout_alignRight="@+id/answerEdit"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/send" />
+    
+    </RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mail.MainActivity" >
+
+     
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent" >
+	    
+	<Button
+	    android:id="@+id/gripsButton_mail"
+        android:layout_weight="1"
+	    android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/light_grey"
+        android:paddingTop="5dp"
+        android:drawableTop="@drawable/d"
+        android:drawablePadding="-35dp"
+        android:text="  Grips"/>
+
+	
+	<View
+    	android:layout_width="2dip"
+    	android:layout_height="fill_parent"
+	/>
+	
+	<Button
+        android:id="@+id/mensaButton_mail" 
+        android:layout_weight="1"
+	    android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/light_grey"
+        android:paddingTop="5dp"
+        android:drawableTop="@drawable/b"
+        android:drawablePadding="-35dp"
+        android:text="      Mensa"/>
+    
+    <View
+    	android:layout_width="2dip"
+    	android:layout_height="fill_parent"
+	/>
+    
+    <Button
+        android:id="@+id/mailButton_mail"
+        android:layout_weight="1"
+	    android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/heidenelke"
+        android:paddingTop="5dp"
+        android:drawableTop="@drawable/l"
+        android:drawablePadding="-35dp"
+        android:textColor="@color/white"
+        android:text="      Mail"/>
+
+	</TableRow>
+	
+	<TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <View
+                android:layout_height="2dp"
+                android:layout_width="fill_parent" />
+            
+        </TableRow>
+	
+	</TableLayout>
+	
+      <ExpandableListView
+        android:id="@+id/expand"
+        android:groupIndicator="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

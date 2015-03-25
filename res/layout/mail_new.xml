@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Neue Mail"
+        android:textSize="25sp"
+        android:textColor="@color/heidenelke"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"/>
+
+  
+    <EditText
+        android:id="@+id/mailEditTo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:background="@drawable/login_edit_text"
+        android:hint="Empfänger"/>
+    
+    <EditText
+        android:id="@+id/mailEditSub"
+        android:singleLine="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/heidenelke"
+        android:background="@drawable/login_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Betreff" />
+
+    <EditText
+        android:id="@+id/mailEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="300dp"
+        android:background="@drawable/answer_edit_text"
+        android:layout_below="@id/sendSubject"
+        android:hint="@string/mailPlaceholder" />
+    
+    <Button
+        android:id="@+id/sendenButton"
+        android:background="@drawable/login_edit_text"
+        android:layout_below="@+id/answerEdit"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/heidenelke"
+        android:layout_width="100dp"
+		android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Senden" />
+    
+</LinearLayout>

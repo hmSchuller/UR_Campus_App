@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:id="@+id/rel_mensa_parent"
+    android:background="@color/light_grey">
+
+	<TextView
+        android:id="@+id/date"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/grey"
+        android:layout_centerVertical="true"
+        android:textSize="20sp" />
+    
+     <TextView
+        android:id="@+id/wochentag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+    	android:layout_marginBottom="5dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="20sp" />
+     
+     <ImageView
+        android:id="@+id/today"
+        android:layout_alignLeft="@+id/date"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/kreuzrot"
+        android:onClick="showLegende"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+         
+     
+     <ImageView 
+        android:id="@+id/collapse"
+        android:layout_marginRight="20dp"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:background="@android:color/transparent"/>
+     
+     <View
+    	android:layout_width="fill_parent"
+    	android:layout_below="@+id/wochentag"
+    	android:layout_height="1dip"
+    	android:background="#FFFFFF"
+	/>
+
+</RelativeLayout>
+
